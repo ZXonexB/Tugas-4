@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #292753;
+    color: #fff;
+}
+
+header {
+    text-align: center;
+    padding: 30px 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0 0 80px 0;
+    margin: 0 0 30px 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+.mid {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.h11 h1 {
+    font-size: xx-small;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 10px;
+    display: flex;
+    max-width: 30px;
+    margin: auto;
+    justify-content: center;
+}
+
+.borrd {
+    background-color: #1cc844;
+    color: #fff;
+}
+
+.mid h2 {
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.mid p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: #6c757d;
+    
+}
+
+.cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    padding: 15px 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+.demo-btn {
+    background-color: #11ca3c;
+    color: #fff;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.signup-btn {
+    background-color: #6c757d;
+    color: #fff;
+    font-style: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
